@@ -1,0 +1,33 @@
+body {
+  margin:0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 550px;
+  height: 868px;
+  background: #23252C;
+}
+
+img {
+  width: 317px;
+  height: 317px;
+  margin: 0 auto;
+}
+
+nav {
+  background: #1A1B21;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+  width: 317px;
+}
+
+nav h1, nav h2 {
+  margin: 0;
+}
+
+nav h1 {
+  padding-top: 21px;
+}
