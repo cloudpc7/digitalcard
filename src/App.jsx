@@ -1,14 +1,19 @@
 import React from 'react'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
+import Main from '../components/Main'
+import Footer from '../components/Footer'
 
 export default function App() {
   return (
     <div className="container">
-      <div>
+      <section className="content">
         <Header />
         <Hero />
-      </div>
+        <Main />
+        <Footer />
+      </section>
+     
     </div>
   )
 }

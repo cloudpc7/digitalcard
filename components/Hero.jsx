@@ -3,12 +3,12 @@ import React from 'react'
 export default function Hero() {
     return (
         <nav>
-            <h1>Paul Cloud</h1>
-            <h2>Frontend Developer</h2>
-            <small><a>clouddesignskills.com</a></small>
-            <div>
-                <button>Email</button>
-                <button>LinkedIn</button>
+            <h3>Paul Cloud</h3>
+            <h4>Frontend Developer</h4>
+            <small><a href="clouddesignskills.com">clouddesign</a></small>
+            <div className="buttons">
+                <button className="btn email">Email</button>
+                <button className="btn linkedin">LinkedIn</button>
             </div>
         </nav>
        
