@@ -1,3 +1,5 @@
+/* Body CSS styles*/
+
 body {
   margin:0;
   display: flex;
@@ -22,6 +24,8 @@ section.content {
  
 }
 
+/*Header styles*/
+
 img {
   width: 317px;
   height: 317px;
@@ -45,6 +49,15 @@ nav h3 {
 a {
   text-decoration: none;
   color: #FFFFFF;
+  letter-spacing: 1.7px;
+}
+
+nav small a:hover {
+  color: #5093E2;
+}
+
+a:hover {
+  color:#101326;
 }
 
 .buttons {
@@ -56,17 +69,35 @@ a {
 
 h3, h4, p {
   margin: 0;
-  letter-spacing: 1.6px;
+  letter-spacing: 1.8px;
 }
 
 .btn {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
   margin-left: 8px;
   margin-right: 8px;
-  padding: 5px;
   width: 115px;
   border-radius: 6px;
   border: none;
+  align-items: center;
+  letter-spacing: 1.7px;
 }
+
+.linkedin {
+  background: #5093E2;
+  color: #FFFFFF;
+
+}
+
+.mail, .link-logo {
+  width: 16px;
+  height: 16px;
+  padding-right: 8px;
+}
+
+/*Main content*/
 
 article {
   background:#1A1B21;
@@ -81,10 +112,12 @@ article {
 
 article p {
   font-size: 10px;
-  line-height: 1.6em;
-  letter-spacing: 1.9px;
+  line-height: 1.7em;
+  letter-spacing: 1.7px;
   padding: 12px 0px 26px 0px;
 }
+
+/*Footer content*/
 
 footer {
   padding: 19px;
